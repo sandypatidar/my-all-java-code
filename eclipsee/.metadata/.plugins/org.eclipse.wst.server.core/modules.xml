@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:AllMix" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:jspBeans" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:ServletDbms" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:ServletDemo" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:logIn" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:DemoApp" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:jspDemo" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:JspExample" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:ServletConfig" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:LoginModule" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:loginForm" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:JspException" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:TodayServlet" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:ServletReq" serverId="Tomcat v8.5 Server at localhost"/>
+</modules>

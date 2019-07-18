@@ -1,0 +1,22 @@
+package in.sandy;
+
+import javax.servlet.http.*;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import javax.servlet.*;
+
+public class ServletDemo extends HttpServlet {
+	public void service(HttpServletRequest req, HttpServletResponse res) throws IOException ,ServletException {
+		res.setContentType("text/html");
+		PrintWriter out = res.getWriter();
+		
+		int id = Integer.parseInt(req.getParameter("id"));
+		String name = req.getParameter("name");
+		int age = Integer.parseInt(req.getParameter("age"));
+		String address = req.getParameter("add");
+		int salary = Integer.parseInt(req.getParameter("Salary"));
+		
+		System.out.println(id+" "+name+" "+age+" "+address+" "+salary);
+	}
+}

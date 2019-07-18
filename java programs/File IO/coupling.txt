@@ -1,0 +1,14 @@
+coupling: -
+what is coupling :- degree of dependancy between the components is called coupling 
+
+if dependancy is more then it is considerd as tightly coupling 
+if dependancy is less then it is considerd as lossly coupling 
+
+tightly couping is worst type of programing practice
+
+hence we have to mantain dependance b/w the components as less as posible that is lossely coupling is a good programing practice
+
+cohesion:- 
+
+every component a clear well define functionality is defind then that component is set to be follow high cohesion 
+

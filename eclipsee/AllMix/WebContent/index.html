@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>All Intro</title>
+<script type="text/javascript"src="jscode.js"></script>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<h2>Fill the form and click bellow</h2>
+	<form id="theForm" action="action" method ="post" onsubmit="return validateTextbox();">
+		<div class="row">
+			<label for="name">Name: </label>
+			<input type="text" id="name" name="uname">
+		</div>
+		<div class ="row">
+			<label for="address">surname: </label>
+			<input type="text" id="address" name="sname">
+		</div>
+		<div class="row">
+			<label for="phone" >Phone: </label>
+			<select id="selects">
+				<option>-Empty-</option>
+				<option>+90(Nepal)</option>
+				<option>+91(India)</option>
+				<option>+92(America)</option>
+				<option>+93(Chaina)</option>
+				<option>+94(ShreeLanka)</option>
+				<option>+95(pakistan)</option>
+			</select>
+			<input type="tel" id="phone" name="phone">
+		</div>
+		<div class="row">
+			<label for="email">Email: </label>
+			<input type="email" id="email" name="email">
+		</div>
+	<input type="submit" id= "button" value="submit">
+	</form>
+</body>
+</html>

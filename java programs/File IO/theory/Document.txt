@@ -1,0 +1,20 @@
+mantra 2 (compile time chacking)
+c must be either same or derived type of a other wise we will get compile time erroe saying incompatable type found :c requred :a;
+
+eg.- 1. Object o = new String("durga");
+StringBuffere sb = (StringBuffere)0;
+
+eg 2. Object o = new String("durga");
+StringBuffere sb = (String)0;
+
+CE: inompatable type
+
+Mantra 3 (Runtime checking);
+run time object type of "d" must be either same or derived type of c otherwise we will get runtime exception saying  class cast exception
+eg. 1 :-
+object o = new String("durga");
+StringBuffer sb = (StringBuffer)o;
+ec:- cce;
+
+
+

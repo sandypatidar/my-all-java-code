@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert</title>
+</head>
+<body>
+
+	<%
+		int i = Integer.parseInt(request.getParameter("sap"));
+		int j = Integer.parseInt(request.getParameter("sap"));
+		out.print(i+j);
+	%>
+	
+</body>
+</html>

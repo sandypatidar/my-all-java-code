@@ -1,0 +1,16 @@
+package in.india;
+class MyThread extends Thread {
+	public void run() {
+		System.out.println("hello is me");
+	}
+}
+public class ThreadDemo {
+
+	public static void main(String[] args) {
+		MyThread mt = new MyThread();
+		Thread t = new Thread(mt);
+		t.start();
+		System.out.println("ha sun liya");
+	}
+
+}

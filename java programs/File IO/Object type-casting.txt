@@ -1,0 +1,6 @@
+we can use perent refrence to hold child object 
+eg. Object o = new String("durga");
+
+we can use interface reference to hold implemented class object 
+eg. Runnable r = new Thread();
+

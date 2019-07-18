@@ -1,0 +1,4 @@
+browser-choice=1
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="1">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8080/Jdbc/index.jsp|*|http\://localhost\:8080/Jdbc/index1.jsp|*|http\://localhost\:8080/myProject/login?email\=patidar%40gmail.com&pass\=sandy|*|http\://localhost\:8080/myProject/index.html|*|http\://localhost\:8080/NameSerach/index.html|*|http\://localhost\:8080/First/add?name\=sandeep|*|http\://localhost\:8080/First/index.html|*|

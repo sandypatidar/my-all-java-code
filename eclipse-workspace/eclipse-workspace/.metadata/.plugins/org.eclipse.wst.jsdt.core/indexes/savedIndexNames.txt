@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+/home/sandy_143/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3182734762.index
+436917216.index
+1049487983.index
+1159332229.index

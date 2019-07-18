@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>hello dear i am introdues you to your favourite  songs </h1>
+	<div id="login">
+	<form action="login" >
+		<p>Please login before you search anything</p>
+		Enter your EmailId: <input type="email" name="email" ><br>
+		Enter Password : <input type="password" name="pass" > <br>
+		<input type="submit">
+	</form>
+	</div>
+</body>
+</body>
+</html>

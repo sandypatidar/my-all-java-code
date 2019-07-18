@@ -1,0 +1,60 @@
+ body {
+background-color:gray;
+}
+h2 {
+	background-color: rgb(40,215,97);
+	color: black;
+	display:inline;
+	border-radius: 5px;
+	padding: 4px 10px 4px 10px;
+	font-family:Arial;
+}
+
+#theForm {
+	background-color: rgb(40,215,97);
+	color: black;
+	border-radius: 5px;
+	display:table;
+	padding :15px;
+	margin-top: 5px;	
+}
+
+.row {
+	display: table-row;
+}
+#new {
+	background-color: lightgray;
+	color: black;
+	display:inline;
+	border-radius: 5px;
+	padding: 4px 10px 4px 10px;
+	font-family:Arial;
+}
+.row label {
+	display:table-cell;
+	padding: 2px;
+	text-align:right;
+}
+.row input {
+	display:table-cell;
+	padding: 2px;
+	margin:3px;
+	border-radius: 5px;
+	background-color: lightgray;
+}
+#button {
+	background-color:black;
+	color:pink;
+	border-radius: 5px;
+	padding :10px;	
+}
+#selects {
+	border-radius: 5px;
+	background-color: lightgray;
+}
+#image{
+	
+	border-radius:5px;
+	padding:10px;
+	margin: 5px;
+}

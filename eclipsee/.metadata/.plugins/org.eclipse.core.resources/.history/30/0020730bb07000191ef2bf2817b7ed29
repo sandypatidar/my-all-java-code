@@ -1,0 +1,21 @@
+package com.jdbc;
+import java.sql.*;
+public class JdbcDao {
+
+	public static void main(String[] args) {
+		StudentDao dao = new StudentDao();
+		Student s1 = dao.getStudent(12);
+		System.out.println(s1);
+	}
+}
+class StudentDao {
+	public Student getStudent(int rollNo) {
+		Student s = new Student();
+		s.rollNo = rollNo;
+		return s;
+	}
+}
+class Student {
+	int rollNo;
+	String sname;
+}

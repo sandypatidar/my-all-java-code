@@ -1,0 +1,7 @@
+*********** IS-A Relationship ************* 
+1. it is also knows as inheritance 
+2. the main advantage
+
+
+return current class instance 
+cleanup process

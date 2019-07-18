@@ -1,0 +1,10 @@
+package in.sandy;
+
+public class DbmsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

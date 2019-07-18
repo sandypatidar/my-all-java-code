@@ -1,0 +1,38 @@
+
+Apr 05, 2019 12:10:10.58 NEW SESSION
+Apr 05, 2019 12:10:10.58 [9016:9988:0405/121010.432:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+Apr 05, 2019 12:10:14.79 [9016:4664:0405/121014.791:ERROR:account_tracker.cc(239)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Apr 05, 2019 12:10:16.18 [9016:9988:0405/121016.183:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+Apr 05, 2019 12:11:02.18 [9016:9988:0405/121102.182:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+Apr 05, 2019 12:12:53.02 [9016:9988:0405/121253.029:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+Apr 05, 2019 12:13:35.46 [9016:4664:0405/121335.468:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Apr 05, 2019 12:14:04.76 [9016:4664:0405/121404.760:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Apr 05, 2019 12:14:50.03 [9016:4664:0405/121450.030:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Apr 05, 2019 12:15:56.02 [9016:9988:0405/121556.020:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+Apr 05, 2019 12:16:19.71 [9016:4664:0405/121619.717:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Apr 05, 2019 12:17:37.27 [9016:4664:0405/121737.271:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Apr 05, 2019 12:17:38.92 [9016:9988:0405/121738.921:ERROR:browser_process_sub_thread.cc(209)] Waited 40 ms for network service
+Apr 05, 2019 12:26:38.93 [6228:204:0405/122638.930:ERROR:cache_util_win.cc(19)] Unable to move the cache: 0
+Apr 05, 2019 12:26:38.95 [6228:204:0405/122638.930:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\name\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\name\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Apr 05, 2019 12:26:39.00 [6228:204:0405/122638.931:ERROR:disk_cache.cc(184)] Unable to create cache
+Apr 05, 2019 12:26:39.03 [6228:204:0405/122638.931:ERROR:shader_disk_cache.cc(622)] Shader Cache Creation failed: -2
+Apr 05, 2019 12:26:39.95 [16096:6760:0405/122639.951:ERROR:account_tracker.cc(239)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Apr 05, 2019 12:26:41.08 Opening in existing browser session.
+Apr 05, 2019 12:26:49.56 [16096:14352:0405/122649.567:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+Apr 05, 2019 12:27:15.77 [16096:14352:0405/122715.772:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+Apr 05, 2019 12:28:08.28 [16096:14352:0405/122808.284:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+Apr 05, 2019 12:29:15.75 [16096:6760:0405/122915.756:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Apr 05, 2019 12:29:16.35 [16096:14352:0405/122916.352:ERROR:browser_process_sub_thread.cc(209)] Waited 193 ms for network service
+Apr 05, 2019 12:35:56.31 [4528:3564:0405/123556.316:ERROR:account_tracker.cc(239)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Apr 05, 2019 12:35:56.63 [4528:13388:0405/123556.507:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+Apr 05, 2019 12:36:04.95 [4528:3564:0405/123604.951:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Apr 05, 2019 12:36:06.24 [4528:13388:0405/123606.245:ERROR:browser_process_sub_thread.cc(209)] Waited 1220 ms for network service
+
+Apr 16, 2019 18:18:27.03 NEW SESSION
+Apr 16, 2019 18:18:27.03 [7104:6172:0416/181827.030:ERROR:account_tracker.cc(239)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Apr 16, 2019 19:50:09.72 [7104:6172:0416/195009.718:ERROR:CONSOLE(278)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('chrome-search://local-ntp').", source: chrome-search://most-visited/single.js (278)
+
+Apr 25, 2019 24:03:38.63 NEW SESSION
+Apr 25, 2019 24:03:38.63 [9336:8756:0425/000338.629:ERROR:account_tracker.cc(239)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Apr 25, 2019 24:43:01.20 [9336:8756:0425/004300.957:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Apr 25, 2019 24:43:11.89 [9336:11428:0425/004311.896:ERROR:browser_process_sub_thread.cc(209)] Waited 1416 ms for network service

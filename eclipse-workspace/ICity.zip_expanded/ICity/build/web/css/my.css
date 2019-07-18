@@ -1,0 +1,110 @@
+ 
+
+.nav.navbar-nav .active a
+
+{
+background:	#228B22; 
+color:#fff;
+}
+
+.nav.navbar-nav li a:hover
+{
+background:	#228B22; 
+color:#fff;
+font-size:18px;
+}
+.navbar
+{
+	background:#fff;
+	border:1px #F26522;
+	
+}
+
+
+  
+  .nav.nav-tabs li a:hover
+{
+background:#F26522;
+color:#fff;
+font-size:15px;
+transition: width 40s;
+}
+p
+{
+	color:black;
+    font-size:120%;
+	border-bottom:1px solid 	#DCDCDC;
+	padding:20px;
+	
+	
+}
+p1
+{
+	color:#00008B;
+    font-size:100%;
+
+	
+}
+
+h3,h2
+{
+	color:	#191970;
+}
+h4{
+	color:	#191970;
+}
+*
+{
+	margin:0px;
+	padding:0px;
+}
+.mybutton{
+	background:	#1E90FF;
+	color:white;
+	border-radius:0px;
+	border:1px solid 	#1E90FF;
+	margin-top:0px;
+	width:100%;
+	text-align:center;
+	margin:auto;
+
+    
+	
+}
+.mybutton:hover{
+	background:green;
+	color:white;
+	border-radius:0px;
+	border:1px solid green;
+	
+	
+	
+	
+}
+body
+{
+	overflow-x: hidden;
+  overflow-y: scroll;
+  
+}
+
+.clear{}
+.loader {
+ border-top: 16px solid blue;
+ border-right: 16px solid green;
+ border-bottom: 16px solid red;
+ border-left: 16px solid pink;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.watermark {
+    opacity: 0.5;
+    color: BLACK;
+    position: fixed;
+    top: auto;
+    left: 80%;
+}.main-center {
+
+}

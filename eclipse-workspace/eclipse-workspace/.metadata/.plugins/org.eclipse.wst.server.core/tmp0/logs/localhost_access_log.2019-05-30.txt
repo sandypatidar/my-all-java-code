@@ -1,0 +1,17 @@
+127.0.0.1 - - [30/May/2019:17:32:39 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [30/May/2019:19:10:07 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [30/May/2019:19:10:09 +0530] "GET /myProject/index.html HTTP/1.1" 200 443
+127.0.0.1 - - [30/May/2019:19:10:47 +0530] "GET /myProject/login?email=patidar%40gmail.com&pass=sandy HTTP/1.1" 500 1426
+127.0.0.1 - - [30/May/2019:19:12:06 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [30/May/2019:19:12:07 +0530] "GET /myProject/index.html HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019:19:12:21 +0530] "GET /myProject/login?email=patidar%40gmail.com&pass=sandy HTTP/1.1" 404 1094
+0:0:0:0:0:0:0:1 - - [30/May/2019:19:14:08 +0530] "GET /myProject/index.html HTTP/1.1" 200 443
+0:0:0:0:0:0:0:1 - - [30/May/2019:19:14:09 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [30/May/2019:19:14:43 +0530] "GET /myProject/login?email=patidar%40gmail.com&pass=sandy HTTP/1.1" 404 1094
+127.0.0.1 - - [30/May/2019:19:15:02 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [30/May/2019:19:15:36 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [30/May/2019:19:15:49 +0530] "GET /myProject/index.html HTTP/1.1" 200 443
+127.0.0.1 - - [30/May/2019:19:16:10 +0530] "GET /myProject/login?email=patidar%40gmail.com&pass=sandy HTTP/1.1" 200 145
+127.0.0.1 - - [30/May/2019:23:52:50 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [30/May/2019:23:53:13 +0530] "GET /Jdbc/index.jsp HTTP/1.1" 500 2760
+127.0.0.1 - - [30/May/2019:23:59:20 +0530] "GET /Jdbc/index.jsp HTTP/1.1" 200 206

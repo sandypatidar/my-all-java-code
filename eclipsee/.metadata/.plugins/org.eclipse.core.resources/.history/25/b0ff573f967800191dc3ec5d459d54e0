@@ -1,0 +1,9 @@
+<html>
+<body>
+	<form action="login">
+	Enter username : <input type="text"  name="uname"><br>
+	Enter password : <input type="password" name="password" ><br>
+	<input type="button" value="login">
+	</form>
+</body>
+</html>

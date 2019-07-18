@@ -1,0 +1,44 @@
+package Insert;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.*;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/Data")
+public class Data extends HttpServlet {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		int ids = Integer.parseInt(request.getParameter("id"));
+		String name = request.getParameter("name");
+		String uname = request.getParameter("uname");
+		PrintWriter out = response.getWriter();
+		Data d = new Data();
+		out.print(d.getSql());
+	}
+	public int getSql() {
+	
+		
+		Connection con=null;
+		Statement st = null;
+		try{
+			Class.forName("com.mysql.jdbc.Driver");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","sandy");
+			st = con.createStatement();
+			/* st.setInt(1, ids);
+			st.setString(2, name);
+			st.setString(3,uname); */
+			int n = st.executeUpdate("insert into sandy value(105, 'sandeep','lalita')");
+			return n;
+		} catch(Exception e){
+			//out.print(e.getStackTrace());
+		}
+		return 0;
+	}
+
+}

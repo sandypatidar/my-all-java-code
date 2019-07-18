@@ -1,0 +1,32 @@
+package com.jdbc;
+import java.sql.*;
+public class JdbcDao {
+
+	public static void main(String[] args) {
+		StudentDao dao = new StudentDao();
+		Student s1 = dao.getStudent(12);
+		System.out.println(s1);
+	}
+}
+class StudentDao {
+	public Student getStudent(int rollNo) {
+		Student s = new Student();
+		s.rollNo = rollNo;
+		try {
+			String query = "select Oiteam from od where c_id="+rollNo;
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "root");
+			Statement st = con.createStatement();
+			ResultSet rs = st.executeQuery(query);
+			rs.next();
+			s.sname = rs.getString(0);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return s;
+	}
+}
+class Student {
+	int rollNo;
+	String sname;
+}

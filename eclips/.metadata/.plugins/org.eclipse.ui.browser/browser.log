@@ -1,0 +1,8 @@
+
+Apr 01, 2019 09:49:49.54 NEW SESSION
+Apr 01, 2019 09:49:49.54 [5052:12248:0401/094946.855:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Apr 01, 2019 09:49:52.67 [5052:12248:0401/094952.261:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2019 09:49:53.74 [5052:2404:0401/094953.742:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+Apr 01, 2019 09:49:54.01 [5052:4744:0401/094954.011:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Apr 01, 2019 09:50:00.69 [5052:12248:0401/095000.697:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+Apr 01, 2019 09:50:00.70 [5052:2404:0401/095000.701:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates

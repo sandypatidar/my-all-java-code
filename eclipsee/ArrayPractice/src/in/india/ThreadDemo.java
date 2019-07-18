@@ -1,0 +1,15 @@
+package in.india;
+public class ThreadDemo extends Thread {
+
+	public static void main(String[] args) {
+		Thread t = new Thread();
+		t.start();
+		for (int i = 0; i < 10; i++) {
+		System.out.println("ha sun liya");
+		}
+		for (int i = 0; i < args.length; i++) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert</title>
+</head>
+<body>
+	<form action="index.jsp">
+		<input type="number" name = "sap"><br>
+		<input type="number" name = "sa">
+	</form>
+
+	<%
+		int i = 10;
+		int j = 20;
+		out.print(i+j);
+	%>
+	<%= i+j %>
+	
+</body>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="C:/Users/name/Downloads/epic/gc java/mysql-connector-java-8.0.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/name/Downloads/epic/gc java/mysql-connector-java-8.0.15.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

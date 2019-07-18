@@ -1,0 +1,9 @@
+package com.sandy;
+
+import javax.servlet.http.HttpServlet;
+
+public class AddNum extends HttpServlet {
+	public void service() {
+		
+	}
+}

@@ -1,0 +1,10 @@
+<html>
+<body>
+	<%
+		if(session.getAttribute("unsme")=="sandeep") {
+			response.sendRedirect("login.jsp");
+		}
+	%>
+	welcome ${uname};
+</body>
+</html>

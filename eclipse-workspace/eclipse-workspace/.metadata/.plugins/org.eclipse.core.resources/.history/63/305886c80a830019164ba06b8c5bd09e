@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index0</title>
+</head>
+<body>
+
+	<form name="index0" action="index1.jsp" method="post">
+		<table border="0" >
+		<tbody>
+			<tr>
+				<td>Id</td>
+				<td><input type="number" name ="num" ></td>
+			</tr>
+			<tr>
+				<td>Name</td>
+				<td><input type="name" name = "name"></td>
+			</tr>
+		</tbody>
+		</table>
+	</form>
+	
+
+
+
+
+	<!-- <form action="index.jsp">
+		id : <input type="number" name ="num" ><br>
+		name: <input type="name" name = "name"><br>
+		<input type="submit">
+	</form> -->
+
+	<%
+		int i = 10;
+		int j = 20;
+		out.print(i+j);
+	%>
+	<%= i+j %>
+	
+</body>
+</html>

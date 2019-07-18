@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>here</title>
+</head>
+<body>
+	<form action="sasa">
+		Id: <input type ="number" name="id"><br>
+		Name: <input type="text" name="name" ><br>
+		Age: <input type="number" name="age" ><br>
+		Address: <input type="text" name="address" ><br>
+		Salary: <input type="number" name="salary" ><br>
+		<input type="button" value="go" >
+		
+	</form>
+</body>
+</html>

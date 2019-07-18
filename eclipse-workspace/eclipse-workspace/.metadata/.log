@@ -1,0 +1,2087 @@
+!SESSION 2019-05-26 14:04:02.436 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-26 14:04:21.247
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 14:04:24.847
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-05-26 14:19:47.836
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 14:23:34.674
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.ui 4 0 2019-05-26 14:26:46.627
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Tracker.open(Tracker.java:853)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager.startDrag(DnDManager.java:230)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager.lambda$0(DnDManager.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:131)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5051)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4579)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 14:27:31.943
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 14:29:39.157
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.ui 4 0 2019-05-26 14:31:54.526
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+!SESSION 2019-05-26 15:01:19.226 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-26 15:01:30.209
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 15:01:39.903
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 15:08:10.071
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.ui 4 0 2019-05-26 15:08:52.889
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 15:28:52.326
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.emf.ecore.xmi 2 0 2019-05-26 15:52:03.495
+!MESSAGE java.net.UnknownHostException: xmlns.jcp.org
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.emf.ecore.xmi.util.DefaultEcoreBuilder.generate(DefaultEcoreBuilder.java:90)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processSchemaLocations(XMLHandler.java:1761)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.handleTopLocations(XMLHandler.java:1802)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createObjectByType(XMLHandler.java:1350)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createTopObject(XMLHandler.java:1522)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processElement(XMLHandler.java:1044)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.processElement(XMIHandler.java:78)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:1026)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:720)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.startElement(XMIHandler.java:190)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:510)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3060)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:324)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1064)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:185)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.modify(Web25MergedModelProvider.java:80)
+	at org.eclipse.jst.j2ee.web.project.facet.WebFacetInstallDelegate.populateDefaultContent(WebFacetInstallDelegate.java:332)
+	at org.eclipse.jst.j2ee.web.project.facet.WebFacetInstallDelegate.createWeb40DeploymentDescriptor(WebFacetInstallDelegate.java:245)
+	at org.eclipse.jst.j2ee.web.project.facet.WebFacetInstallDelegate.execute(WebFacetInstallDelegate.java:115)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.callDelegate(FacetedProject.java:1477)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:441)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$5.run(FacetedProject.java:1099)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChanges(FacetedProject.java:1109)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.commitChanges(FacetedProjectWorkingCopy.java:2020)
+	at org.eclipse.wst.common.project.facet.ui.ModifyFacetedProjectWizard.performFinish(ModifyFacetedProjectWizard.java:400)
+	at org.eclipse.wst.web.ui.internal.wizards.NewProjectDataModelFacetWizard.performFinish(NewProjectDataModelFacetWizard.java:288)
+	at org.eclipse.wst.common.project.facet.ui.ModifyFacetedProjectWizard$3.run(ModifyFacetedProjectWizard.java:331)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.project.facet.ui.ModifyFacetedProjectWizard$4.run(ModifyFacetedProjectWizard.java:345)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: java.net.UnknownHostException: xmlns.jcp.org
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
+	at org.eclipse.xsd.ecore.XSDEcoreBuilder.generateResources(XSDEcoreBuilder.java:2788)
+	... 66 more
+Caused by: java.net.UnknownHostException: xmlns.jcp.org
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1075)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1009)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1581)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at org.eclipse.emf.ecore.resource.impl.URIHandlerImpl.createInputStream(URIHandlerImpl.java:207)
+	at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.createInputStream(ExtensibleURIConverterImpl.java:360)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1314)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 68 more
+Root exception:
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: java.net.UnknownHostException: xmlns.jcp.org
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
+	at org.eclipse.xsd.ecore.XSDEcoreBuilder.generateResources(XSDEcoreBuilder.java:2788)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.emf.ecore.xmi.util.DefaultEcoreBuilder.generate(DefaultEcoreBuilder.java:90)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processSchemaLocations(XMLHandler.java:1761)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.handleTopLocations(XMLHandler.java:1802)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createObjectByType(XMLHandler.java:1350)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createTopObject(XMLHandler.java:1522)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processElement(XMLHandler.java:1044)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.processElement(XMIHandler.java:78)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:1026)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:720)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.startElement(XMIHandler.java:190)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:510)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3060)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:324)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1064)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:185)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.modify(Web25MergedModelProvider.java:80)
+	at org.eclipse.jst.j2ee.web.project.facet.WebFacetInstallDelegate.populateDefaultContent(WebFacetInstallDelegate.java:332)
+	at org.eclipse.jst.j2ee.web.project.facet.WebFacetInstallDelegate.createWeb40DeploymentDescriptor(WebFacetInstallDelegate.java:245)
+	at org.eclipse.jst.j2ee.web.project.facet.WebFacetInstallDelegate.execute(WebFacetInstallDelegate.java:115)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.callDelegate(FacetedProject.java:1477)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:441)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$5.run(FacetedProject.java:1099)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChanges(FacetedProject.java:1109)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.commitChanges(FacetedProjectWorkingCopy.java:2020)
+	at org.eclipse.wst.common.project.facet.ui.ModifyFacetedProjectWizard.performFinish(ModifyFacetedProjectWizard.java:400)
+	at org.eclipse.wst.web.ui.internal.wizards.NewProjectDataModelFacetWizard.performFinish(NewProjectDataModelFacetWizard.java:288)
+	at org.eclipse.wst.common.project.facet.ui.ModifyFacetedProjectWizard$3.run(ModifyFacetedProjectWizard.java:331)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.project.facet.ui.ModifyFacetedProjectWizard$4.run(ModifyFacetedProjectWizard.java:345)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.net.UnknownHostException: xmlns.jcp.org
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1075)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1009)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1581)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at org.eclipse.emf.ecore.resource.impl.URIHandlerImpl.createInputStream(URIHandlerImpl.java:207)
+	at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.createInputStream(ExtensibleURIConverterImpl.java:360)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1314)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 68 more
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 16:23:00.547
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.emf.ecore.xmi 2 0 2019-05-26 16:24:02.594
+!MESSAGE java.net.UnknownHostException: xmlns.jcp.org
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.emf.ecore.xmi.util.DefaultEcoreBuilder.generate(DefaultEcoreBuilder.java:90)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processSchemaLocations(XMLHandler.java:1761)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.handleTopLocations(XMLHandler.java:1802)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createObjectByType(XMLHandler.java:1350)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createTopObject(XMLHandler.java:1522)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processElement(XMLHandler.java:1044)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.processElement(XMIHandler.java:78)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:1026)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:720)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.startElement(XMIHandler.java:190)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:510)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3060)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:324)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1003)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:185)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:98)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:35)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:98)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:160)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:146)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:125)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:142)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+Caused by: org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: java.net.UnknownHostException: xmlns.jcp.org
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
+	at org.eclipse.xsd.ecore.XSDEcoreBuilder.generateResources(XSDEcoreBuilder.java:2788)
+	... 81 more
+Caused by: java.net.UnknownHostException: xmlns.jcp.org
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1075)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1009)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1581)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at org.eclipse.emf.ecore.resource.impl.URIHandlerImpl.createInputStream(URIHandlerImpl.java:207)
+	at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.createInputStream(ExtensibleURIConverterImpl.java:360)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1314)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 83 more
+Root exception:
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: java.net.UnknownHostException: xmlns.jcp.org
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
+	at org.eclipse.xsd.ecore.XSDEcoreBuilder.generateResources(XSDEcoreBuilder.java:2788)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.emf.ecore.xmi.util.DefaultEcoreBuilder.generate(DefaultEcoreBuilder.java:90)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processSchemaLocations(XMLHandler.java:1761)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.handleTopLocations(XMLHandler.java:1802)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createObjectByType(XMLHandler.java:1350)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createTopObject(XMLHandler.java:1522)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processElement(XMLHandler.java:1044)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.processElement(XMIHandler.java:78)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:1026)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:720)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.startElement(XMIHandler.java:190)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:510)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3060)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:324)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1003)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:185)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:98)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:35)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:98)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:160)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:146)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:125)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:142)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+Caused by: java.net.UnknownHostException: xmlns.jcp.org
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1075)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1009)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1581)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at org.eclipse.emf.ecore.resource.impl.URIHandlerImpl.createInputStream(URIHandlerImpl.java:207)
+	at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.createInputStream(ExtensibleURIConverterImpl.java:360)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1314)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 83 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:44:01.085
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:44:01.310
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:47:22.320
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:47:22.329
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:47:22.337
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:47:23.522
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:47:23.525
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:47:27.309
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:47:27.312
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:54:12.761
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:54:12.796
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 16:54:39.888
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:56:22.388
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:56:22.392
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:57:11.311
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:57:11.316
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:58:59.537
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 16:58:59.765
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:00:18.501
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:00:18.503
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:05:44.151
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:05:44.154
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:10:52.847
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:10:52.850
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:23:11.992
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:23:12.006
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:26:13.554
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:26:13.558
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:30:15.921
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:30:15.928
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:33:37.552
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:33:37.583
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:33:40.154
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:33:40.158
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:42:59.222
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:42:59.229
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:43:22.200
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:43:22.206
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:43:55.512
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:43:55.516
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:45:00.007
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:45:00.035
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:46:30.659
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:46:30.661
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:46:31.888
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:46:31.890
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:48:26.930
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:48:26.935
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:49:40.319
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:49:40.339
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:51:06.264
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:51:06.267
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:55:47.553
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 17:55:47.555
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 18:05:00.149
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 18:05:00.183
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 18:06:36.519
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 18:06:36.523
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 18:26:07.979
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 18:26:08.017
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2019-05-26 22:39:54.049 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-26 22:40:07.143
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 22:40:21.492
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:40:40.842
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:40:40.884
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:41:41.425
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:41:41.433
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:43:47.284
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:43:47.302
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:43:47.314
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 22:44:02.485
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:44:11.030
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:44:11.034
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:44:11.043
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:44:12.191
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:44:12.195
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:45:08.046
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:45:08.050
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 22:45:38.752
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:46:24.705
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:46:24.717
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:46:51.916
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:46:51.922
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:48:04.418
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:48:04.431
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 22:49:00.462
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:49:05.582
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:49:05.585
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:49:14.470
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:49:14.474
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:49:22.446
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:49:22.449
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:52:00.267
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:52:00.331
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:52:43.081
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:52:43.172
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-26 22:53:44.481
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.ui 4 0 2019-05-26 22:53:49.776
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.computeInformation(AdditionalInfoController.java:541)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1091)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.showInformation(AdditionalInfoController.java:530)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$1.showInformation(AdditionalInfoController.java:477)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer.lambda$1(AdditionalInfoController.java:362)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:54:17.213
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:54:17.221
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:57:59.647
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:57:59.654
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:59:18.519
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:59:18.521
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:59:34.861
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:59:34.865
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:59:38.804
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 22:59:38.806
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:01:10.159
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:01:10.162
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:02:24.627
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:02:24.631
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:03:33.988
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:03:33.994
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:05:25.777
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:05:25.779
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:06:45.190
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:06:45.192
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:06:52.603
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:06:52.613
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:07:56.246
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:07:56.250
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:10:04.154
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:10:04.156
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:10:14.376
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:10:14.379
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:11:27.616
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:11:27.619
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:12:59.896
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:12:59.901
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:14:11.256
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:14:11.263
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:15:49.048
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:15:49.062
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:15:59.978
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:15:59.981
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:16:04.327
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:16:04.340
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:17:53.137
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 23:17:53.139
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2019-05-30 17:25:31.666 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-30 17:25:53.161
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 17:26:03.924
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-30 17:26:25.849
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-30 17:26:25.927
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-30 17:26:28.878
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-30 17:26:28.884
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2019-05-30 17:36:29.715 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/sandy_143/eclipse-workspace/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-30 17:36:44.856
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 17:36:51.244
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-05-30 17:41:59.011 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2019-05-30 17:47:36.482
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-05-30 17:47:36.482
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-30 17:47:37.114
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-05-30 17:47:39.387
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-05-30 17:47:39.404
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 17:47:46.692
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-05-30 17:59:12.819
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:42)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:897)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:344)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:547)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:233)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:345)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:228)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:321)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-05-30 17:59:12.823
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:42)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:897)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:344)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:547)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:233)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:345)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:107)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:321)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-05-30 17:59:12.825
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:32)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:897)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:344)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:547)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:233)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:345)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:228)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:321)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.ui 4 0 2019-05-30 17:59:12.953
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4680)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.graphics.Image.init(Image.java:1247)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:219)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.onPaint(GradientCanvas.java:168)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.lambda$0(GradientCanvas.java:81)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Control.gtk_draw(Control.java:3863)
+	at org.eclipse.swt.widgets.Composite.gtk_draw(Composite.java:455)
+	at org.eclipse.swt.widgets.Canvas.gtk_draw(Canvas.java:181)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2177)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4135)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1407)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1584)
+	at org.eclipse.swt.browser.WebKit$Webkit2AsyncToSync.execAsyncAndWaitForReturn(WebKit.java:1894)
+	at org.eclipse.swt.browser.WebKit$Webkit2AsyncToSync.runjavascript(WebKit.java:1796)
+	at org.eclipse.swt.browser.WebKit$Webkit2AsyncToSync.evaluate(WebKit.java:1744)
+	at org.eclipse.swt.browser.WebKit.evaluate(WebKit.java:1930)
+	at org.eclipse.swt.browser.WebKit.close(WebKit.java:1551)
+	at org.eclipse.swt.browser.WebKit.onDispose(WebKit.java:2563)
+	at org.eclipse.swt.browser.WebKit.lambda$4(WebKit.java:1312)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1416)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1228)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4570)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:526)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.computeBrowserAvailable(AbstractMarketplaceDiscoveryItem.java:523)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.createInfoLink(AbstractMarketplaceDiscoveryItem.java:394)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.createDescription(AbstractMarketplaceDiscoveryItem.java:341)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.createContent(AbstractMarketplaceDiscoveryItem.java:241)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.createContent(AbstractMarketplaceDiscoveryItem.java:203)
+	at org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.createContent(DiscoveryItem.java:123)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.<init>(AbstractMarketplaceDiscoveryItem.java:168)
+	at org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.<init>(DiscoveryItem.java:102)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.createDiscoveryItem(MarketplaceViewer.java:501)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewerItem(MarketplaceViewer.java:435)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer$3.doCreateItem(MarketplaceViewer.java:969)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.ControlListViewer.createNewItem(ControlListViewer.java:244)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.ControlListViewer.refreshAll(ControlListViewer.java:485)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.ControlListViewer.inputChanged(ControlListViewer.java:358)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1686)
+	at org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.catalogUpdated(CatalogViewer.java:251)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.access$4(MarketplaceViewer.java:1)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$1(MarketplaceViewer.java:377)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.runUpdate(MarketplaceViewer.java:771)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.catalogUpdated(MarketplaceViewer.java:376)
+	at org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.updateCatalog(CatalogViewer.java:592)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.updateCatalog(MarketplaceViewer.java:1048)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.safeUpdateCatalog(MarketplacePage.java:806)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.lambda$4(MarketplacePage.java:794)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.openWizardDialog(AbstractMarketplaceWizardCommand.java:145)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.execute(AbstractMarketplaceWizardCommand.java:72)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:294)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5051)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4579)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-05-30 17:59:36.241
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:42)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:897)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:344)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:547)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:233)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:345)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:191)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:321)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-05-30 17:59:36.318
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:32)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:897)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:344)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:547)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:233)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:345)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:191)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:321)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:02:21.185
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-05-30 18:02:21.456
+!MESSAGE DevStyle theme is being deactivated on this workspace; restoring colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-05-30 18:02:21.571
+!MESSAGE DevStyle is restoring colors that were configured prior to DevStyle being enabled
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-05-30 18:03:02.699
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-05-30 18:03:02.705
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+!SESSION 2019-05-30 18:03:11.739 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/sandy_143/eclipse-workspace/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-30 18:03:22.551
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:03:26.813
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-05-30 18:05:47.512 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/sandy_143/eclipse-workspace/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-30 18:05:56.439
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:06:00.388
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-05-30 18:08:14.925 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/sandy_143/eclipse-workspace/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-30 18:08:24.919
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:08:28.986
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.ui 4 0 2019-05-30 18:11:25.265
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4680)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.graphics.Image.init(Image.java:1247)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:219)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.onPaint(GradientCanvas.java:168)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.lambda$0(GradientCanvas.java:81)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Control.gtk_draw(Control.java:3863)
+	at org.eclipse.swt.widgets.Composite.gtk_draw(Composite.java:455)
+	at org.eclipse.swt.widgets.Canvas.gtk_draw(Canvas.java:181)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2177)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4135)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1407)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1584)
+	at org.eclipse.swt.browser.WebKit$Webkit2AsyncToSync.execAsyncAndWaitForReturn(WebKit.java:1894)
+	at org.eclipse.swt.browser.WebKit$Webkit2AsyncToSync.runjavascript(WebKit.java:1796)
+	at org.eclipse.swt.browser.WebKit$Webkit2AsyncToSync.evaluate(WebKit.java:1744)
+	at org.eclipse.swt.browser.WebKit.evaluate(WebKit.java:1930)
+	at org.eclipse.swt.browser.WebKit.close(WebKit.java:1551)
+	at org.eclipse.swt.browser.WebKit.onDispose(WebKit.java:2563)
+	at org.eclipse.swt.browser.WebKit.lambda$4(WebKit.java:1312)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1416)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1228)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4570)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:526)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.computeBrowserAvailable(AbstractMarketplaceDiscoveryItem.java:523)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.createInfoLink(AbstractMarketplaceDiscoveryItem.java:394)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.createDescription(AbstractMarketplaceDiscoveryItem.java:341)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.createContent(AbstractMarketplaceDiscoveryItem.java:241)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.createContent(AbstractMarketplaceDiscoveryItem.java:203)
+	at org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.createContent(DiscoveryItem.java:123)
+	at org.eclipse.epp.internal.mpc.ui.wizards.AbstractMarketplaceDiscoveryItem.<init>(AbstractMarketplaceDiscoveryItem.java:168)
+	at org.eclipse.epp.internal.mpc.ui.wizards.DiscoveryItem.<init>(DiscoveryItem.java:102)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.createDiscoveryItem(MarketplaceViewer.java:501)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.doCreateViewerItem(MarketplaceViewer.java:435)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer$3.doCreateItem(MarketplaceViewer.java:969)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.ControlListViewer.createNewItem(ControlListViewer.java:244)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.ControlListViewer.refreshAll(ControlListViewer.java:485)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.ControlListViewer.inputChanged(ControlListViewer.java:358)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1686)
+	at org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.catalogUpdated(CatalogViewer.java:251)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.access$4(MarketplaceViewer.java:1)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$1(MarketplaceViewer.java:377)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.runUpdate(MarketplaceViewer.java:771)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.catalogUpdated(MarketplaceViewer.java:376)
+	at org.eclipse.equinox.internal.p2.ui.discovery.wizards.CatalogViewer.updateCatalog(CatalogViewer.java:592)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.updateCatalog(MarketplaceViewer.java:1048)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.safeUpdateCatalog(MarketplacePage.java:806)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.lambda$4(MarketplacePage.java:794)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.openWizardDialog(AbstractMarketplaceWizardCommand.java:145)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.execute(AbstractMarketplaceWizardCommand.java:72)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:294)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5051)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4579)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+!SESSION 2019-05-30 18:12:25.670 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/sandy_143/eclipse-workspace/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-30 18:12:34.685
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-05-30 18:12:37.164
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:12:39.498
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:15:16.409
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-05-30 18:17:41.331
+!MESSAGE Command 'org.eclipse.epp.mpc.ui.command.showMarketplaceWizard' failed
+!STACK 0
+org.eclipse.core.commands.ExecutionException: Error executing 'org.eclipse.epp.mpc.ui.command.showMarketplaceWizard': java.lang.NullPointerException
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:170)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5051)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4579)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+Caused by: org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	... 33 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Color.gtk_new(Color.java:359)
+	at org.eclipse.swt.graphics.GC.getForeground(GC.java:2205)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.drawTextGradient(GradientCanvas.java:251)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.updateGradientImage(GradientCanvas.java:231)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.setBackgroundGradient(GradientCanvas.java:113)
+	at org.eclipse.equinox.internal.p2.ui.discovery.wizards.CategoryItem.createContent(CategoryItem.java:46)
+	at org.eclipse.equinox.internal.p2.ui.discovery.wizards.CategoryItem.<init>(CategoryItem.java:33)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcher.createHeader(CatalogSwitcher.java:127)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcher.createContents(CatalogSwitcher.java:82)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcher.<init>(CatalogSwitcher.java:78)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.createMarketplaceSwitcher(MarketplacePage.java:650)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.createControl(MarketplacePage.java:261)
+	at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:179)
+	at org.eclipse.jface.wizard.WizardDialog.createPageControls(WizardDialog.java:685)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:577)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1099)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.openWizardDialog(AbstractMarketplaceWizardCommand.java:145)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.execute(AbstractMarketplaceWizardCommand.java:72)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:294)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 37 more
+
+!ENTRY org.eclipse.ui 4 0 2019-05-30 18:17:41.368
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Color.gtk_new(Color.java:359)
+	at org.eclipse.swt.graphics.GC.getForeground(GC.java:2205)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.drawTextGradient(GradientCanvas.java:251)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.updateGradientImage(GradientCanvas.java:231)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientCanvas.lambda$2(GradientCanvas.java:91)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1416)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1266)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1584)
+	at org.eclipse.swt.widgets.Canvas.setBounds(Canvas.java:466)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:207)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:207)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1006)
+	at org.eclipse.jface.wizard.WizardDialog$PageContainerFillLayout.layout(WizardDialog.java:272)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1006)
+	at org.eclipse.swt.layout.FormLayout.layout(FormLayout.java:364)
+	at org.eclipse.swt.layout.FormLayout.layout(FormLayout.java:292)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1587)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:1046)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:697)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1799)
+	at org.eclipse.swt.widgets.Composite.setLayoutDeferred(Composite.java:1646)
+	at org.eclipse.swt.widgets.Display.runDeferredLayouts(Display.java:5075)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4566)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+!SESSION 2019-05-30 18:18:15.972 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/sandy_143/eclipse-workspace/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-30 18:18:22.092
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-05-30 18:18:24.894
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:18:27.263
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-05-30 18:26:08.426 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/sandy_143/eclipse-workspace/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-30 18:26:13.680
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-05-30 18:26:15.538
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:26:21.378
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:27:49.230
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2019-05-30 18:30:09.434
+!MESSAGE IStructuredDocumentRegion management failed.
+!STACK 0
+org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2267)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2341)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.nodesReplaced(DOMModelImpl.java:742)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:602)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1200)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1981)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2425)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2410)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:143)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:146)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2370)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:108)
+	at org.eclipse.jface.text.DocumentCommand$Command.execute(DocumentCommand.java:85)
+	at org.eclipse.jface.text.DocumentCommand.execute(DocumentCommand.java:409)
+	at org.eclipse.jface.text.TextViewer.handleVerifyEvent(TextViewer.java:3647)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.handleVerifyEvent(ProjectionViewer.java:1243)
+	at org.eclipse.wst.sse.ui.internal.StructuredTextViewer.handleVerifyEvent(StructuredTextViewer.java:771)
+	at org.eclipse.jface.text.TextViewer$TextVerifyListener.verifyText(TextViewer.java:426)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:277)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1196)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7378)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8274)
+	at org.eclipse.swt.custom.StyledText.doContent(StyledText.java:2503)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:6057)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6088)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.sendIMKeyEvent(Widget.java:1514)
+	at org.eclipse.swt.widgets.Control.gtk_commit(Control.java:3637)
+	at org.eclipse.swt.widgets.Canvas.gtk_commit(Canvas.java:168)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2188)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_im_context_filter_keypress(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_im_context_filter_keypress(GTK.java:3451)
+	at org.eclipse.swt.widgets.Control.filterKey(Control.java:2801)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3928)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:857)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2203)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4135)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1407)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1584)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4577)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.openWizardDialog(AbstractMarketplaceWizardCommand.java:145)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.execute(AbstractMarketplaceWizardCommand.java:72)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:294)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5051)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4579)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+!SESSION 2019-05-30 18:31:19.671 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/sandy_143/eclipse-workspace/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-30 18:31:30.985
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:31:33.915
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-05-30 18:32:40.930
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-05-30 18:32:40.971
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+!SESSION 2019-05-30 18:32:49.516 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/sandy_143/eclipse-workspace/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-30 18:32:58.738
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:33:02.293
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:36:23.430
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:47:58.544
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 18:58:13.388
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 19:06:46.074
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-05-30 23:10:07.323 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-30 23:10:59.183
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 23:11:08.688
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 23:31:24.387
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 23:31:52.705
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-30 23:31:52.757
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-31 00:25:00.714
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-05-31 12:11:41.782 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-31 12:12:58.819
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-31 12:13:05.636
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-05-31 12:44:09.478 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-31 12:45:16.118
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-31 12:45:24.069
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-31 12:59:37.261
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-31 14:44:58.153
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-31 15:20:47.424
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

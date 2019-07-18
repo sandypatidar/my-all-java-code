@@ -1,0 +1,6 @@
+* for writing any java program whether it is simple or complex the most commonly required a group into a separate package which is nothing but java.lang package 
+* the most commonly required method for every java class 
+* (whether it is predefined class or customizer class )
+* Every class in java is child class of Object class either directly or indirectly so that object class methods by default available to every java class 
+* hence object class is considered as root of all java classes 
+* 
